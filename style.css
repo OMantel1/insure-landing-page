@@ -16,7 +16,52 @@ h3 {
   font-family: "DM Serif Display", serif;
   font-weight: 400; }
 
+h2,
+h3,
+p {
+  line-height: 26px; }
+
 h1 {
-  font-weight: 600; }
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 48px; }
+
+.btn {
+  border: solid white 2px;
+  padding: 10px 26px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px; }
+
+.my-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 24px; }
+
+.navigation ul {
+  list-style-type: none; }
+
+.hidden {
+  display: none; }
+
+.intro {
+  background-color: #2d2640;
+  color: #fafafa;
+  padding-bottom: 78px; }
+  .intro__content {
+    padding: 24px;
+    text-align: center; }
+  .intro__title {
+    padding-bottom: 16px;
+    margin-top: 64px; }
+  .intro__text {
+    margin-bottom: 42px;
+    color: #837d87; }
+  .intro__btn {
+    margin-bottom: 350px; }
 
 /*# sourceMappingURL=style.css.map */
