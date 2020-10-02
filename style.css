@@ -14,7 +14,8 @@ h1,
 h2,
 h3 {
   font-family: "DM Serif Display", serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 27px; }
 
 h2,
 h3,
@@ -34,6 +35,13 @@ h1 {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px; }
+
+.line {
+  height: 0,5px;
+  width: 160px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #fafafa; }
 
 .my-header {
   display: flex;
@@ -63,5 +71,22 @@ h1 {
     color: #837d87; }
   .intro__btn {
     margin-bottom: 350px; }
+
+.presentation {
+  text-align: center;
+  margin-top: 140px;
+  color: #2d2640; }
+  .presentation__title {
+    margin-bottom: 78px; }
+  .presentation__icon {
+    margin-bottom: 34px; }
+
+.presentation-box {
+  margin-bottom: 56px;
+  padding: 0 26px; }
+  .presentation-box__title {
+    margin-bottom: 20px; }
+  .presentation-box__text {
+    color: #837d87; }
 
 /*# sourceMappingURL=style.css.map */

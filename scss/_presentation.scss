@@ -1,0 +1,25 @@
+.presentation {
+    text-align: center;
+    margin-top: 140px;
+    color: $color-first;
+
+    &__title {
+        margin-bottom: 78px;
+    }
+
+    &__icon {
+        margin-bottom: 34px;
+    }
+}
+
+.presentation-box {
+    margin-bottom: 56px;
+    padding: 0 26px;
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        color: $color-fourth;
+    }
+}
