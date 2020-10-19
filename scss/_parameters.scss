@@ -17,7 +17,9 @@ $color-third:  hsl(270, 9%, 17%);
 $color-fourth: hsl(273, 4%, 51%);
 $color-fifth: hsl(0, 0%, 98%);
 
-
+$tablet: 769px;
+$mobile: 426px;
+$laptop: 1024px;
 
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
