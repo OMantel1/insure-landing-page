@@ -4,7 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: $neutral-dark;
 }
+
+html {
+    font-size: 62.5%;
+}
+
 
 p,
 a,
@@ -21,6 +27,7 @@ h2 {
 
 p {
     line-height: 26px;
+    font-size: 1.6em;
 }
 
 .btn {
@@ -29,8 +36,8 @@ p {
     color: $neutral-light;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
     letter-spacing: 2px;
+    font-size: 1.3em;
 
     &:hover {
         border: solid $neutral-light 2px;

@@ -3,11 +3,12 @@
 .presentation {
     text-align: center;
     margin-top: 140px;
-    color: $primary-first;
+    @extend %max-space-px;
 
     &__title {
+        color: $primary-first;
         margin-bottom: 78px;
-        font-size: 46px;
+        font-size: 6em;
     }
 
     &__icon {
@@ -17,14 +18,11 @@
 
 .presentation-box {
     margin-bottom: 56px;
-    padding: 0 26px;
 
     &__title {
+        font-size: 2.6em;
+        color: $primary-first;
         margin-bottom: 20px;
-    }
-
-    &__text {
-        color: $neutral-dark;
     }
 }
 
@@ -38,16 +36,18 @@
 
     .presentation {
         margin: 300px auto 140px;
-        max-width: 1150px;
-        padding: 0 24px;
 
         &__title {
             text-align: left;
-            font-size: 72px;
+            font-size: 7.4em;
         }
 
         &-box {
             padding: 0;
         }
+    }
+
+    .presentation-box {
+        padding-right: 18px;
     }
 }

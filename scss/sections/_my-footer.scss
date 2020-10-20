@@ -3,29 +3,30 @@
 .my-footer {
     background-color: $neutral-light;
     margin-top: 140px;
+    font-size: 1.3em;
 }
 
 .my-footer>div {
-    max-width: 1150px;
+    @extend %max-space-px;
     margin: auto;
-    padding: 40px 24px 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .my-footer__social {
     text-align: center;
     border-bottom: solid $primary-second 1px;
+    @extend %flex-between-center;
+    margin: auto;
 
     .icons {
         margin: 10px 6px;
     }
 
-    @media (min-width: $tablet) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto;
-
+    @media (max-width: $tablet) {
+        flex-direction: column;
     }
+
 }
 
 
@@ -34,8 +35,8 @@
 }
 
 .my-footer__links {
-    font-size: 13px;
-    text-align: center;
+    text-align: left;
+    display: flex;
 
     a {
         text-decoration: none;
@@ -54,22 +55,21 @@
         list-style-type: none;
     }
 
-    @media (min-width: $tablet) {
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        text-align: left;
+    @media (max-width: $tablet) {
+        text-align: center;
+        flex-direction: column;
     }
 }
 
 .links-box {
     width: 100%;
+
     @media(min-width: $tablet) {
         width: 25%;
     }
 }
+
 .links__title {
-    color: $neutral-dark;
     text-transform: uppercase;
     margin: 40px;
 
