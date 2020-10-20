@@ -14,7 +14,7 @@
         display: inline-block;
         position: relative;
         margin: 0 30px 0 0;
-        color: $color-fourth;
+        color: $neutral-dark;
         font-size: 14px;letter-spacing: 1px;
         text-decoration: none;
 
@@ -27,7 +27,7 @@
     .nav-link::after {
         content: "";
         display: block;
-        background-color: $color-fourth;
+        background-color: $neutral-dark;
         width: 0%;
         left: 50%;
         height: 1px;
@@ -47,7 +47,7 @@
     }
 
     .nav-btn {
-        border: solid $color-first 2px;
+        border: solid $primary-first 2px;
         padding: 10px 26px;
         color: black;
         font-size: 13px;
@@ -55,7 +55,7 @@
         &:hover {
             text-decoration: none;
             color: white;
-            background-color: $color-first;
+            background-color: $primary-first;
         }
 
         @media (max-width: $tablet) {
@@ -66,7 +66,7 @@
 
     @media (max-width: $tablet) {
         position: absolute;
-        background-color: $color-first;
+        background-color: $primary-first;
         top: 80px;
         left: 0;
         right: 0;

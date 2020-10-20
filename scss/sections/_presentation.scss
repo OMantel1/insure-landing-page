@@ -3,7 +3,7 @@
 .presentation {
     text-align: center;
     margin-top: 140px;
-    color: $color-first;
+    color: $primary-first;
 
     &__title {
         margin-bottom: 78px;
@@ -24,7 +24,7 @@
     }
 
     &__text {
-        color: $color-fourth;
+        color: $neutral-dark;
     }
 }
 

@@ -1,8 +1,8 @@
 /**** INTRO ****/
 
 .intro {
-    background-color: $color-first;
-    color: $color-fifth;
+    background-color: $primary-first;
+    color: $neutral-light;
     padding-bottom: 78px;
     text-align: center;
 
@@ -19,7 +19,7 @@
 
     &__text {
         margin-bottom: 42px;
-        color: $color-fourth;
+        color: $neutral-light;
     }
 
     &__btn {

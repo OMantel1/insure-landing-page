@@ -24,18 +24,18 @@ p {
 }
 
 .btn {
-    border: solid white 2px;
+    border: solid $neutral-light 2px;
     padding: 10px 26px;
-    color: white;
+    color: $neutral-light;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
 
     &:hover {
-        border: solid white 2px;
-        color: $color-first;
-        background-color: white;
+        border: solid $neutral-light 2px;
+        color: $primary-first;
+        background-color: $neutral-light;
     }
 }
 
